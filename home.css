@@ -1,0 +1,152 @@
+body {
+    background-image: url('images/backg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: 100% 100%;
+  }
+
+
+
+.topnav a {
+  float: right;
+  color: #2a0d0d;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgb(51, 30, 30);
+  color:white ;
+}
+.topnav .dropbtn:hover {
+  background-color: rgb(51, 30, 30);
+  color:white ;
+}
+
+.head {
+  text-align: left;
+  margin-left:38%;
+  font-size: 17px;
+  margin-top: 4%;
+}
+
+.abc{
+  
+  font-family:'brush script mt';
+  font-size: 100px;
+}
+
+.forms a {
+  color: #2a0d0d;
+  text-align: center;
+  /* padding: 14px 16px; */
+  /* text-decoration: none; */
+  
+}
+
+
+.paint {
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+}
+
+.paint a {
+  text-decoration: none;
+  color: #2a0d0d;
+}
+
+.paint div {
+  width: 200px; /* Set a fixed width for the image containers */
+  border: 2px solid #2a0d0d;
+  border-radius: 12px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 22px; /* Adjust the margin as needed to add space between the images */
+}
+
+.paint img {
+  margin-top: 7px;
+  width: 100%; /* Set the width to 100% to fill the container */
+  height: 250px; /* Adjust the height as needed for the desired size */
+  object-fit: cover; /* Maintain the aspect ratio of the image while filling the container */
+}
+
+
+#ex{
+  background-color: #2a0d0d;
+  color: antiquewhite;
+  text-align: center;
+  font-size: 20px;
+  padding: 15px 25px;
+  text-decoration: none;
+  display: inline-block;
+  /* border-radius: 10%; */
+}
+
+.painting{
+  text-align: justify;
+  margin-right: 2%;
+}
+dt{
+  font-weight: bold;
+}
+
+.paintimage{
+  /* justify-content: space-between; */
+  /* justify-content: space-evenly; */
+  text-align: center;
+  border: 2px solid #2a0d0d;
+  border-radius: 12px;
+}
+.paintimage img{
+
+  width: 19%;
+  height: 19%;
+  object-fit: contain;
+}
+
+.dropdown {
+  overflow: hidden;
+  float: right;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  /* outline: none; */
+  color: #2a0d0d;
+  padding: 14px 16px;
+  background-color: inherit;
+  /* font-family: inherit; */
+  /* margin: 0; */
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  /* background-color: #f9f9f9; */
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  /* z-index: 1; */
+}
+
+.dropdown-content a {
+  float: none;
+  color: #2a0d0d;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
